@@ -19,4 +19,8 @@ public class NGramGenerator {
 	public String[] getNGrams(String s, int n) {
 		return null;
 	}
+	
+	public static void main(String[] args) {
+		NGramGenerator ngg = new NGramGenerator();
+	}
 }
