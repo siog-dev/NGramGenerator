@@ -13,4 +13,10 @@ package ie.atu.sw;
 
 public class NGramGenerator {
 	
+	private String s = "HAPPY DAYS!";
+	private int n = 4;
+	
+	public String[] getNGrams(String s, int n) {
+		return null;
+	}
 }
