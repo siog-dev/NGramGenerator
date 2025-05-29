@@ -6,7 +6,13 @@ public class NGramGenerator {
 	
 	// JOHNS SOLUTION
 	public String[] getNGrams(String s, int n) {
-		return null;
+		String[] ngrams = new String[s.length() - n + 1];
+		
+		for (int i = 0; i <= s.length() - n; i++) {
+			ngrams[i] = s.substring(i, i + n);
+		}
+		
+		return ngrams;
 	}
 	
 	public static void main(String[] args) {
