@@ -40,5 +40,9 @@ public class NGramGenerator {
 	
 	public static void main(String[] args) {
 		NGramGenerator ngg = new NGramGenerator();
+		// Call the new object with the getNGrams, passing it a string and an int
+		String[] s = ngg.getNGrams("HAPPY DAYS!", 4);
+		// Convert and print the array as a string
+		System.out.println(Arrays.toString(s));
 	}
 }
